@@ -1,0 +1,96 @@
+# ───────────────
+# OS junk
+# ───────────────
+.DS_Store
+Thumbs.db
+
+# ───────────────
+# IDE / Editor configs
+# ───────────────
+.idea/
+.vscode/
+*.iml
+
+# ───────────────
+# Build artifacts (C / C++)
+# ───────────────
+bin/
+*.o
+*.obj
+*.out
+*.exe
+*.a
+*.so
+*.dll
+*.dSYM/
+a.out
+
+# ───────────────
+# Python cache / venv
+# ───────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env/
+.venv/
+
+# ───────────────
+# Java artifacts
+# ───────────────
+*.class
+*.jar
+target/
+build/
+
+# ───────────────
+# Node.js artifacts
+# ───────────────
+node_modules/
+package-lock.json
+yarn.lock
+
+# ───────────────
+# Rust artifacts
+# ───────────────
+target/
+Cargo.lock
+
+# ───────────────
+# CMake build files
+# ───────────────
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+
+# ───────────────
+# Local test I/O files
+# ───────────────
+input.txt
+output.txt
+input*.txt
+output*.txt
+in*.txt
+out*.txt
+*.in
+*.out
+*.ans
+*.log
+test_*
+
+# ───────────────
+# Debug / profiling
+# ───────────────
+*.dSYM
+*.prof
+*.gcda
+*.gcno
+vgcore.*
+
+# ───────────────
+# Miscellaneous
+# ───────────────
+*.swp
+*.swo
+*.bak
+*.tmp
