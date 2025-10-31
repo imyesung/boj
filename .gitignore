@@ -1,73 +1,40 @@
 # ───────────────
-# OS junk
-# ───────────────
-.DS_Store
-Thumbs.db
-
-# ───────────────
-# IDE / Editor configs
-# ───────────────
-.idea/
-.vscode/
-*.iml
-
-# ───────────────
-# Build artifacts (C / C++)
+# Build artifacts (C/C++)
 # ───────────────
 bin/
 *.o
 *.obj
 *.out
-*.exe
+a.out
 *.a
 *.so
+*.dylib
 *.dll
-*.dSYM/
-a.out
+*.gch
+*.d
 
 # ───────────────
-# Python cache / venv
-# ───────────────
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-.env/
-.venv/
-
-# ───────────────
-# Java artifacts
-# ───────────────
-*.class
-*.jar
-target/
-build/
-
-# ───────────────
-# Node.js artifacts
-# ───────────────
-node_modules/
-package-lock.json
-yarn.lock
-
-# ───────────────
-# Rust artifacts
-# ───────────────
-target/
-Cargo.lock
-
-# ───────────────
-# CMake build files
+# CMake
 # ───────────────
 CMakeFiles/
 CMakeCache.txt
 cmake-build-*/
+compile_commands.json
 
 # ───────────────
-# Local test I/O files
+# Debug / profiling / coverage
 # ───────────────
-input.txt
-output.txt
+*.gcda
+*.gcno
+*.gcov
+*.prof
+*.profraw
+*.profdata
+vgcore.*
+
+# ───────────────
+# Local test I/O
+# ───────────────
 input*.txt
 output*.txt
 in*.txt
@@ -77,20 +44,3 @@ out*.txt
 *.ans
 *.log
 test_*
-
-# ───────────────
-# Debug / profiling
-# ───────────────
-*.dSYM
-*.prof
-*.gcda
-*.gcno
-vgcore.*
-
-# ───────────────
-# Miscellaneous
-# ───────────────
-*.swp
-*.swo
-*.bak
-*.tmp
